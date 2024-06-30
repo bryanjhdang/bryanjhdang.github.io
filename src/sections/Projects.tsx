@@ -22,12 +22,19 @@ export default function Projects() {
     <div id="projects" className="pt-10 sm:pt-20 pb-10 sm:pb-20">
       <SectionWrapper>
         <SectionTitle title="PROJECTS" />
+
         <div>
-          <p>Critter</p>
-          <p>An online character sheet for the tabletop RPG Mausritter. This is a game where you have inventory slots in a "Resident Evil" style grid, and it was a total pain to manage those physically. I wouldn't say it beats the original at all (pen and paper is always the most fun), but it sure beats scuffed cutouts.</p>
-          <p>I used React, NodeJS, and Firebase to build this project.</p>
-          <p>View Project</p>
+          <p>Past Your Peak</p>
+          <p>A game made for the Mountain Top Game Jam 2023. It's a reverse rogue-like game where you lose powers as you progress through the stages, meant to represent how you 'peaked' as the theme. It ended up winning the Creativity Award ($200).</p>
+          <div>
+            <p>Unity</p>
+          </div>
+          <div>
+            <p>View Project</p>
+            <p>Git Repo</p>
+          </div>
         </div>
+
       </SectionWrapper>
     </div>
   )
