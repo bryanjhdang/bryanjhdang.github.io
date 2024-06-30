@@ -20,7 +20,7 @@ function ProjectTemplate(projectInfo: ProjectInfo) {
 export default function Projects() {
   return (
     <SectionWrapper>
-      <div className="pt-20 pb-20">
+      <div className="pt-10 sm:pt-20 pb-10 sm:pb-20">
         <SectionTitle title ="PROJECTS" />
         <div>
           <p>Critter</p>

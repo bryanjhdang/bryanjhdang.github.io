@@ -6,7 +6,7 @@ export default {
   theme: {
     fontSize: {
       sm: '1rem',
-      base: '1.25rem',
+      base: '1.2rem',
       xl: '1.6rem',
       '2xl': '2rem',
       '3xl': '2.5rem',

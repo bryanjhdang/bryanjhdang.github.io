@@ -7,6 +7,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  background-color: #F5F5F5;
+}
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
