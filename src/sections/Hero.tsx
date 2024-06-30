@@ -7,7 +7,7 @@ export default function Hero() {
         <div className="flex flex-col lg:flex-row items-center">
           <div className="mr-20">
             <p className="text-3xl xl:text-4xl font-extrabold">HI, I'M BRYAN</p>
-            <p className="text-xl lg:text-2xl">A Vancouver CS student that likes to work in web and game development</p>
+            <p className="text-xl lg:text-2xl">A Vancouver CS student that likes to work in web and game development.</p>
             <div className="pt-5 lg:pt-10 flex flex-row gap-5 sm:gap-8 text-xl items-center">
               {/* <a className="text-blue-600 underline">Resume</a> */}
               <a href="mailto:bda37@sfu.ca" className="text-blue-600 underline">
