@@ -74,7 +74,7 @@ function BoneyardOfTheInnocent() {
       <div className="flex-1">
         <div className="pb-5">
           <p className="text-xl font-semibold pb-2">Boneyard of the Innocent</p>
-          <p className="text-base">Made for the Godot Wild June 2024 Jam which had the theme of 'folklore', this is a puzzle platformer game where you try to outsmart and kill a Wendigo creature by a combination of puzzles and permanent interactions across playthroughs.</p>
+          <p className="text-base">Made for the Godot Wild June 2024 Jam which had the theme of 'folklore', this is a puzzle platformer game where you try to outsmart and kill a Wendigo creature by a combination of puzzles and permanent interactions across playthroughs. We ended up getting 118th out of 203, but 12th with an unweighted score (we didn't have enough reviews RIP).</p>
         </div>
         <div className="pb-5">
           <p className="text-base">My team used <span className="font-semibold text-blue-500">Godot</span> to create the game where I worked on the puzzle item interactions like switches, levers, doors, platforms, and teleporters. I also did work on the UI and level design. </p>
@@ -100,7 +100,7 @@ function Paws() {
           <p className="text-base">A time tracking web app to keep track of all of your tasks and log them. Has lots of productivity features like a to-do list, being able to study together with others, and an economy where you gain coins by using the timer in order to buy cute cat GIFs to work with you.</p>
         </div>
         <div className="pb-5">
-          <p className="text-base">We used <span className="font-semibold text-blue-500">React</span> for the front-end and Mantine UI as a component library to create the UI elements, <span className="font-semibold text-blue-500">NodeJS / ExpressJS</span> for the back-end to create HTTP endpoints in order to store the time tracking data inside of a <span className="font-semibold text-blue-500">Firestore</span> database.</p>
+          <p className="text-base">We used <span className="font-semibold text-blue-500">React</span> for the front-end and <span className="font-semibold text-blue-500">Mantine UI</span> as a component library to create the UI elements, <span className="font-semibold text-blue-500">NodeJS / ExpressJS</span> for the back-end to create HTTP endpoints in order to store the time tracking data inside of a <span className="font-semibold text-blue-500">Firestore</span> database.</p>
         </div>
         <div>
           <a href="https://github.com/bryanjhdang/tempify" target="_blank" className="text-base text-blue-600 underline mr-5">Git Repo</a>
