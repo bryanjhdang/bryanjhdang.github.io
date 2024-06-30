@@ -77,7 +77,7 @@ function BoneyardOfTheInnocent() {
           <p className="text-base">Made for the Godot Wild June 2024 Jam which had the theme of 'folklore', this is a puzzle platformer game where you try to outsmart and kill a Wendigo creature by a combination of puzzles and permanent interactions across playthroughs. We ended up getting 118th out of 203, but 12th with an unweighted score (we didn't have enough reviews RIP).</p>
         </div>
         <div className="pb-5">
-          <p className="text-base">My team used <span className="font-semibold text-blue-500">Godot</span> to create the game where I worked on the puzzle item interactions like switches, levers, doors, platforms, and teleporters. I also did work on the UI and level design. </p>
+          <p className="text-base">My team used <span className="font-semibold text-blue-500">Godot</span> to create the game where I worked on the puzzle item interactions like switches, levers, doors, platforms, and teleporters. I also worked on UI and the level design. </p>
         </div>
         <div>
           <a href="https://0strategist0.itch.io/boneyard-of-the-innocent" target="_blank" className="text-base text-blue-600 underline mr-5">View Project</a>
