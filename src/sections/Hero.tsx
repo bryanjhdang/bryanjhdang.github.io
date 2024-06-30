@@ -6,8 +6,8 @@ export default function Hero() {
       <SectionWrapper>
         <div className="flex flex-col lg:flex-row items-center">
           <div className="mr-20">
-            <p className="text-2xl sm:text-3xl xl:text-4xl font-extrabold">HI, I'M BRYAN</p>
-            <p className="text-base sm:text-xl lg:text-2xl">A Vancouver CS student that likes to work in web and game development</p>
+            <p className="text-3xl xl:text-4xl font-extrabold">HI, I'M BRYAN</p>
+            <p className="text-xl lg:text-2xl">A Vancouver CS student that likes to work in web and game development</p>
           </div>
           <img src="src/assets/profile.jpg" alt="Bryan profile picture" width={350} className="pt-10 sm:pt-20 lg:pt-0" />
         </div>
