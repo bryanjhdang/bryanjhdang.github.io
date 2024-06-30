@@ -46,7 +46,7 @@ function PastYourPeak() {
   return (
     <div className="flex sm:flex-row flex-col gap-10">
       <div className="basis-1/4">
-        <img src="src/assets/past-your-peak.png" alt="Past Your Peak" className="object-cover" />
+        <img src="src/assets/images/past-your-peak.png" alt="Past Your Peak" className="object-cover" />
       </div>
       <div className="flex-1">
         <div className="pb-5">
@@ -69,7 +69,7 @@ function BoneyardOfTheInnocent() {
   return (
     <div className="flex sm:flex-row flex-col gap-10">
       <div className="basis-1/4">
-        <img src="src/assets/boneyard.png" alt="Boneyard of the Innocent" className="object-cover" />
+        <img src="src/assets/images/boneyard.png" alt="Boneyard of the Innocent" className="object-cover" />
       </div>
       <div className="flex-1">
         <div className="pb-5">
@@ -92,7 +92,7 @@ function Paws() {
   return (
     <div className="flex sm:flex-row flex-col gap-10">
       <div className="basis-1/4">
-        <img src="src/assets/paws.png" alt="Paws" className="object-cover" />
+        <img src="src/assets/images/paws.png" alt="Paws" className="object-cover" />
       </div>
       <div className="flex-1">
         <div className="pb-5">
