@@ -19,7 +19,7 @@ function ProjectTemplate(projectInfo: ProjectInfo) {
 
 export default function Projects() {
   return (
-    <div className="pt-10 sm:pt-20 pb-10 sm:pb-20">
+    <div id="projects" className="pt-10 sm:pt-20 pb-10 sm:pb-20">
       <SectionWrapper>
         <SectionTitle title="PROJECTS" />
         <div>

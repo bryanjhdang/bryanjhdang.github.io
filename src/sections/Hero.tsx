@@ -2,7 +2,7 @@ import { SectionWrapper } from "../components/SectionComponents";
 
 export default function Hero() {
   return (
-    <div className="pt-10 sm:pt-20 pb-10 sm:pb-20">
+    <div id="main" className="pt-10 sm:pt-20 pb-10 sm:pb-20">
       <SectionWrapper>
         <div className="flex flex-col sm:flex-row items-center">
           <div className="flex-1 mr-20">
