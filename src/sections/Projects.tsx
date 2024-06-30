@@ -21,10 +21,10 @@ function ProjectTemplate(projectInfo: ProjectInfo) {
 function TemporaryProjectTemplate() {
   return (
     <div className="flex sm:flex-row flex-col gap-10">
-      <div>
-        <img src="" alt=" " width={800} />
+      <div className="basis-1/4">
+        <img src="" alt=" " className="object-cover" />
       </div>
-      <div>
+      <div className="flex-1">
         <div className="pb-5">
           <p className="text-xl font-semibold pb-2">Title</p>
           <p className="text-base">Description</p>
@@ -88,6 +88,29 @@ function BoneyardOfTheInnocent() {
   )
 }
 
+function Paws() {
+  return (
+    <div className="flex sm:flex-row flex-col gap-10">
+      <div className="basis-1/4">
+        <img src="src/assets/paws.png" alt="Paws" className="object-cover" />
+      </div>
+      <div className="flex-1">
+        <div className="pb-5">
+          <p className="text-xl font-semibold pb-2">Paws</p>
+          <p className="text-base">A time tracking web app to keep track of all of your tasks and log them. Has lots of productivity features like a to-do list, being able to study together with others, and an economy where you gain coins by using the timer in order to buy cute cat GIFs to work with you.</p>
+        </div>
+        <div className="pb-5">
+          <p className="text-base">We used <span className="font-semibold text-blue-500">React</span> for the front-end and Mantine UI as a component library to create the UI elements, <span className="font-semibold text-blue-500">NodeJS / ExpressJS</span> for the back-end to create HTTP endpoints in order to store the time tracking data inside of a <span className="font-semibold text-blue-500">Firestore</span> database.</p>
+        </div>
+        <div>
+          <a href="https://github.com/bryanjhdang/tempify" target="_blank" className="text-base text-blue-600 underline mr-5">Git Repo</a>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+
 
 
 export default function Projects() {
@@ -96,6 +119,7 @@ export default function Projects() {
       <SectionWrapper>
         <SectionTitle title="PROJECTS" />
         <div className="flex flex-col gap-28">
+          <Paws />
           <BoneyardOfTheInnocent />
           <PastYourPeak />
         </div>
