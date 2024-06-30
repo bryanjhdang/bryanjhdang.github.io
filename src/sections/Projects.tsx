@@ -1,46 +1,46 @@
 import { SectionTitle, SectionWrapper } from "../components/SectionComponents"
 
-interface ProjectInfo {
-  title: String,
-  description: String,
-  tools: String[],
-  website?: String | null,
-  repo?: String | null,
-  article?: String | null
-}
+// interface ProjectInfo {
+//   title: String,
+//   description: String,
+//   tools: String[],
+//   website?: String | null,
+//   repo?: String | null,
+//   article?: String | null
+// }
 
 // Actually implement this lol (can leave it hard coded for now)
-function ProjectTemplate(projectInfo: ProjectInfo) {
-  return (
-    <>
-      <p>{projectInfo.title}</p>
-    </>
-  )
-}
+// function ProjectTemplate(projectInfo: ProjectInfo) {
+//   return (
+//     <>
+//       <p>{projectInfo.title}</p>
+//     </>
+//   )
+// }
 
-function TemporaryProjectTemplate() {
-  return (
-    <div className="flex sm:flex-row flex-col gap-10">
-      <div className="basis-1/4">
-        <img src="" alt=" " className="object-cover" />
-      </div>
-      <div className="flex-1">
-        <div className="pb-5">
-          <p className="text-xl font-semibold pb-2">Title</p>
-          <p className="text-base">Description</p>
-        </div>
-        <div className="pb-5">
-          <p className="text-base">Tools used <span className="font-semibold text-blue-500">Specific one used</span></p>
-        </div>
-        <div>
-          <a href="" target="_blank" className="text-base text-blue-600 underline mr-5">View Project</a>
-          <a href="" target="_blank" className="text-base text-blue-600 underline mr-5">Git Repo</a>
-          <a href="" target="_blank" className="text-base text-blue-600 underline mr-5">Blog Post</a>
-        </div>
-      </div>
-    </div>
-  )
-}
+// function TemporaryProjectTemplate() {
+//   return (
+//     <div className="flex sm:flex-row flex-col gap-10">
+//       <div className="basis-1/4">
+//         <img src="" alt=" " className="object-cover" />
+//       </div>
+//       <div className="flex-1">
+//         <div className="pb-5">
+//           <p className="text-xl font-semibold pb-2">Title</p>
+//           <p className="text-base">Description</p>
+//         </div>
+//         <div className="pb-5">
+//           <p className="text-base">Tools used <span className="font-semibold text-blue-500">Specific one used</span></p>
+//         </div>
+//         <div>
+//           <a href="" target="_blank" className="text-base text-blue-600 underline mr-5">View Project</a>
+//           <a href="" target="_blank" className="text-base text-blue-600 underline mr-5">Git Repo</a>
+//           <a href="" target="_blank" className="text-base text-blue-600 underline mr-5">Blog Post</a>
+//         </div>
+//       </div>
+//     </div>
+//   )
+// }
 
 function PastYourPeak() {
   return (
