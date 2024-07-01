@@ -10,3 +10,4 @@ Personal portfolio to show off my projects and stuff.
 - Continue making changes normally
 - `npm run deploy` to build the dist folder onto `gh-pages` branch
 - Remember to commit and push changes to main after too
+- Update the custom domain in `Settings` > `Pages` to your specified domain
