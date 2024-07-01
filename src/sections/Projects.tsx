@@ -1,4 +1,7 @@
 import { SectionTitle, SectionWrapper } from "../components/SectionComponents"
+import PastYourPeakImg from "../assets/images/past-your-peak.png"
+import PawsImg from "../assets/images/paws.png"
+import BoneyardImg from "../assets/images/boneyard.png"
 
 // interface ProjectInfo {
 //   title: String,
@@ -46,7 +49,7 @@ function PastYourPeak() {
   return (
     <div className="flex sm:flex-row flex-col gap-10">
       <div className="basis-1/4">
-        <img src="src/assets/images/past-your-peak.png" alt="Past Your Peak" className="w-full object-cover" />
+        <img src={PastYourPeakImg} alt="Past Your Peak" className="w-full object-cover" />
       </div>
       <div className="flex-1">
         <div className="pb-5">
@@ -69,7 +72,7 @@ function BoneyardOfTheInnocent() {
   return (
     <div className="flex sm:flex-row flex-col gap-10">
       <div className="basis-1/4">
-        <img src="src/assets/images/boneyard.png" alt="Boneyard of the Innocent" className="w-full object-cover" />
+        <img src={BoneyardImg} alt="Boneyard of the Innocent" className="w-full object-cover" />
       </div>
       <div className="flex-1">
         <div className="pb-5">
@@ -92,7 +95,7 @@ function Paws() {
   return (
     <div className="flex sm:flex-row flex-col gap-10">
       <div className="basis-1/4">
-        <img src="src/assets/images/paws.png" alt="Paws" className="w-full object-cover" />
+        <img src={PawsImg} alt="Paws" className="w-full object-cover" />
       </div>
       <div className="flex-1">
         <div className="pb-5">

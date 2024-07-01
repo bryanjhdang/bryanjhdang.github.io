@@ -1,4 +1,5 @@
 import { SectionWrapper } from "../components/SectionComponents";
+import ProfileImg from "../assets/images/profile.jpg"
 
 export default function Hero() {
   return (
@@ -18,7 +19,7 @@ export default function Hero() {
               </a>
             </div>
           </div>
-          <img src="src/assets/images/profile.jpg" alt="Bryan Profile Picture" width={350} className="pt-10 sm:pt-20 lg:pt-0" />
+          <img src={ProfileImg} alt="Bryan Profile Picture" width={350} className="pt-10 sm:pt-20 lg:pt-0" />
         </div>
       </SectionWrapper>
     </div>
