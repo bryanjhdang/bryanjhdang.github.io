@@ -1,7 +1,5 @@
 import { SectionTitle, SectionWrapper } from "../components/SectionComponents";
 import ProfileImg from "../assets/images/profile.jpg";
-import EmailImg from "../assets/images/email-outline.png";
-import LinkedinImg from "../assets/images/linkedin-black.png";
 
 export default function About() {
   return (
