@@ -14,6 +14,6 @@ export function SectionWrapper({children}: Props) {
 
 export function SectionTitle({ title }: { title: string }) {
   return (
-    <p className="font-extrabold text-xl sm:text-2xl mb-5 sm:mb-10">{title}</p>
+    <p className="font-extrabold text-2xl mb-5 sm:mb-10">{title}</p>
   )
 }

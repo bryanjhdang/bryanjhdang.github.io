@@ -118,10 +118,10 @@ function Paws() {
 
 export default function Projects() {
   return (
-    <div id="projects" className="pt-10 sm:pt-20 pb-10 sm:pb-20">
+    <div id="projects" className="pt-14 sm:pt-24 pb-14 sm:pb-24">
       <SectionWrapper>
         <SectionTitle title="PROJECTS" />
-        <div className="flex flex-col gap-28">
+        <div className="flex flex-col gap-24 sm:gap-32">
           <Paws />
           <BoneyardOfTheInnocent />
           <PastYourPeak />
