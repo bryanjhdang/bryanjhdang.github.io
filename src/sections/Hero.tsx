@@ -18,7 +18,7 @@ export default function Hero() {
               </a>
             </div>
           </div>
-          <img src="src/assets/images/profile.jpg" alt="Bryan profile picture" width={350} className="pt-10 sm:pt-20 lg:pt-0" />
+          <img src="src/assets/images/profile.jpg" alt="Bryan Profile Picture" width={350} className="pt-10 sm:pt-20 lg:pt-0" />
         </div>
       </SectionWrapper>
     </div>
