@@ -6,5 +6,7 @@ Personal portfolio to show off my projects and stuff.
 - `npm install`
 - `npm run dev`
 
-## For future me to update the website with changes
-- Will have to figure this out
+## To update the website with local changes
+- Continue making changes normally
+- `npm run deploy` to build the dist folder onto `gh-pages` branch
+- Remember to commit and push changes to main after too
