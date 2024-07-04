@@ -57,7 +57,7 @@ function PastYourPeak() {
           <p className="text-base">A game made for the Mountain Top Game Jam 2023. It's a reverse rogue-like game where you lose powers as you progress. With a theme of 'peak', it was meant to represent how you peaked in life and the only way left is down. It ended up winning the Creativity Award ($200).</p>
         </div>
         <div className="pb-5">
-          <p className="text-base">We used <span className="text-white">Unity</span> where I programmed some of the enemy behavior to attack and chase down the player, put the levels together, and used <span className="text-white">Aseprite</span> to create most of the assets.</p>
+          <p className="text-base">We used Unity where I programmed some of the enemy behavior to attack and chase down the player, put the levels together, and used Aseprite to create most of the assets.</p>
         </div>
         <div>
           <a href="https://bryd.itch.io/past-your-peak" target="_blank" className="text-base text-white underline mr-5">View Project</a>
@@ -80,7 +80,7 @@ function BoneyardOfTheInnocent() {
           <p className="text-base">Made for the Godot Wild June 2024 Jam which had the theme of 'folklore', this is a puzzle platformer game where you try to outsmart and kill a Wendigo creature by a combination of puzzles and permanent interactions across playthroughs. We ended up getting 118th out of 203, but 12th with an unweighted score (we didn't have enough reviews RIP).</p>
         </div>
         <div className="pb-5">
-          <p className="text-base">My team used <span className="text-white">Godot</span> to create the game where I worked on the puzzle item interactions like switches, levers, doors, platforms, and teleporters. I also worked on the UI for the main menu and the level design. </p>
+          <p className="text-base">My team used Godot to create the game where I worked on the puzzle item interactions like switches, levers, doors, platforms, and teleporters. I also worked on the UI for the main menu and the level design. </p>
         </div>
         <div>
           <a href="https://0strategist0.itch.io/boneyard-of-the-innocent" target="_blank" className="text-base text-white underline mr-5">View Project</a>
@@ -102,10 +102,10 @@ function Paws() {
           <p className="text-xl font-semibold pb-2 text-white">Paws</p>
           <p className="text-base">A time tracking web app to keep track of all of your tasks and log them. Has lots of productivity features like a to-do list, being able to study together with others, and an economy where you gain coins by using the timer in order to buy cute cat GIFs to work with you.</p>
         </div>
-        <div className="pb-5">
-          <p className="text-base">We used <span className="text-white">React</span> for the front-end and <span className="text-white">Mantine UI</span> as a component library to create the UI elements, and <span className="text-white">NodeJS / ExpressJS</span> for the back-end to create HTTP endpoints in order to store the time tracking data inside of a <span className="text-white">Firestore</span> database.</p>
-        </div>
         <div>
+          <p className="text-base">We used React for the front-end and Mantine UI as a component library to create the UI elements. Our back-end used NodeJS / ExpressJS to create HTTP endpoints in order to store the time tracking data inside of a Firestore database.</p>
+        </div>
+        <div className="pt-5">
           <a href="https://github.com/bryanjhdang/tempify" target="_blank" className="text-base text-white underline mr-5">Git Repo</a>
         </div>
       </div>
@@ -118,7 +118,7 @@ function Paws() {
 
 export default function Projects() {
   return (
-    <div id="projects" className="pt-20 sm:pt-32 pb-20 sm:pb-32 bg-[#323445] text-gray-400 border-none">
+    <div id="projects" className="pt-20 sm:pt-32 pb-20 sm:pb-32 bg-neutral-800 text-gray-400 border-none">
       <SectionWrapper>
         <SectionTitle title="PROJECTS" />
         <div className="flex flex-col gap-24 sm:gap-36">

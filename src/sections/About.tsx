@@ -3,7 +3,7 @@ import ProfileImg from "../assets/images/profile.jpg";
 
 export default function About() {
   return (
-    <div id="about" className="pt-20 sm:pt-32 pb-20 sm:pb-32 bg-[#232534] text-gray-400 border-none">
+    <div id="about" className="pt-20 sm:pt-32 pb-20 sm:pb-32 bg-neutral-900 text-gray-400 border-none">
       <SectionWrapper>
         <SectionTitle title="ABOUT" />
         <div className="flex flex-col lg:flex-row">
