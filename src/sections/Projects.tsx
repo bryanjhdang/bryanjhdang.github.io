@@ -54,7 +54,7 @@ function PastYourPeak() {
       <div className="flex-1">
         <div className="pb-5">
           <p className="text-xl font-semibold pb-2">Past Your Peak</p>
-          <p className="text-base">A game made for the Mountain Top Game Jam 2023. It's a reverse rogue-like game where you lose powers as you progress. With a theme of 'peak', it was meant to represent how you peaked in life and the only way left is down. It ended up winning the Creativity Award ($200).</p>
+          <p className="text-base">A game made for the Mountain Top Game Jam 2023. It's a reverse rogue-like game where you lose powers as you progress. With a theme of 'peak', it's about how you peak in life. It won the Creativity Award ($200).</p>
         </div>
         {/* <div className="pb-5">
           <p className="text-base">We used Unity where I programmed some of the enemy behavior to attack and chase down the player, put the levels together, and used Aseprite to create most of the assets.</p>
@@ -77,7 +77,7 @@ function BoneyardOfTheInnocent() {
       <div className="flex-1">
         <div className="pb-5">
           <p className="text-xl font-semibold pb-2">Boneyard of the Innocent</p>
-          <p className="text-base">Made for the Godot Wild June 2024 Jam which had the theme of 'folklore', this is a puzzle platformer game where you try to outsmart and kill a Wendigo creature by a combination of puzzles and permanent interactions across playthroughs.</p>
+          <p className="text-base">Made for the Godot Wild June 2024 Jam which had the theme of 'folklore', this is a puzzle platformer game where you try to outsmart and kill a Wendigo creature by a combination of puzzles and interactions across playthroughs.</p>
         </div>
         {/* <div className="pb-5">
           <p className="text-base">My team used Godot to create the game where I worked on the puzzle item interactions like switches, levers, doors, platforms, and teleporters. I also worked on the UI for the main menu and the level design. </p>
@@ -100,7 +100,7 @@ function Paws() {
       <div className="flex-1">
         <div className="pb-5">
           <p className="text-xl font-semibold pb-2">Paws</p>
-          <p className="text-base">A time tracking web app to keep track of all of your tasks and log them. Has lots of productivity features like a to-do list, being able to study together with others, and an economy where you gain coins by using the timer in order to buy cute cat GIFs to work with you.</p>
+          <p className="text-base">A time tracking web app to keep track of all of your tasks and log them. Has productivity features like a to-do list, studying together with others, and an economy where you gain coins by using the timer to buy cute cat GIFs.</p>
         </div>
         {/* <div>
           <p className="text-base">We used React for the front-end and Mantine UI as a component library to create the UI elements. Our back-end used NodeJS / ExpressJS to create HTTP endpoints in order to store the time tracking data inside of a Firestore database.</p>
