@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 
 export default function Header() {
   return (
-      <div className="hidden sm:block pt-14 pb-10 flow-root bg-neutral-800 text-white">
+    <div className="hidden sm:block pt-14 pb-10 flow-root">
       <SectionWrapper>
         <div className="float-left">
           <Link to="main" smooth={true} duration={500} className="text-base hover:underline mr-10 cursor-pointer font-bold">Bryan Dang</Link>

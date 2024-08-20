@@ -1,3 +1,5 @@
+import daisyui from 'daisyui';
+
 export default {
   content: [
     "./index.html",
@@ -14,10 +16,17 @@ export default {
       '5xl': '6rem',
     },
     extend: {
-      fontFamily: {
-        jost: ["Jost", "sans-serif"]
-      },
+      // fontFamily: {
+      //   jost: ["Jost", "sans-serif"]
+      // },
     },
   },
-  plugins: [],
+  daisyui: {
+    themes: [ 
+      "cupcake",
+    ]
+  },
+  plugins: [
+    require('daisyui'),
+  ],
 }
