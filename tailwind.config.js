@@ -7,13 +7,13 @@ export default {
   ],
   theme: {
     fontSize: {
-      sm: '1rem',
-      base: '1.2rem',
-      xl: '1.6rem',
-      '2xl': '2rem',
-      '3xl': '3rem',
-      '4xl': '4.5rem',
-      '5xl': '6rem',
+      sm: '0.8rem',
+      base: '1rem',
+      xl: '1.3rem',
+      '2xl': '1.8rem',
+      '3xl': '2rem',
+      '4xl': '3rem',
+      '5xl': '4rem',
     },
     extend: {
       // fontFamily: {
