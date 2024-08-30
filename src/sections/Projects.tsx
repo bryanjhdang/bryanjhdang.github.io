@@ -118,7 +118,7 @@ function Paws() {
 
 export default function Projects() {
   return (
-    <div id="projects" className="pt-20 sm:pt-32 pb-20 sm:pb-32 border-none">
+    <div id="projects" className="pt-20 pb-20 border-none">
       <SectionWrapper>
         <SectionTitle title="PROJECTS" />
         <div className="flex flex-col gap-24 sm:gap-36">
