@@ -8,7 +8,7 @@ import Footer from './sections/Footer'
 function App() {
   return (
     <div className='flex flex-col items-center justify-center'>
-      <div className='w-full px-12 md:px-20 max-w-7xl'>
+      <div className='w-full px-8 md:px-20 max-w-7xl'>
 
         {/* px-10 sm:px-20 lg:px-40 xl:px-60 */}
         <Header />
