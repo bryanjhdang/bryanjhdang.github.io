@@ -1,4 +1,4 @@
-import { SectionTitle } from "../components/SectionComponents"
+import { SectionTitle } from "./SectionComponents"
 import { projectData } from "../assets/files/projectData"
 
 interface ProjectInfo {

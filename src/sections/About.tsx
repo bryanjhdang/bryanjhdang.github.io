@@ -1,4 +1,4 @@
-import { SectionTitle } from "../components/SectionComponents";
+import { SectionTitle } from "./SectionComponents";
 import ProfileImg from "../assets/images/profile.jpg";
 
 export default function About() {
