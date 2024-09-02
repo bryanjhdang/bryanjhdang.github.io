@@ -22,8 +22,8 @@ function Project({ project }: { project: ProjectInfo }) {
 
         <div className="flex-1">
           
-          <div className="pb-5">
-            <p className="text-xl font-semibold pb-2">{project.name}</p>
+          <div className="pb-4">
+            <p className="text-xl font-semibold pb-4">{project.name}</p>
             <p className="text-base">{project.description}</p>
           </div>
 
@@ -51,7 +51,7 @@ export default function Projects() {
   return (
     <div id="projects" className="pt-20 pb-20 border-none">
       <SectionTitle title="PROJECTS" />
-      <div className="grid gap-24 sm:gap-28">
+      <div className="grid grid-cols-1 gap-24 sm:gap-28">
         {projectData.map((project, index) => (
           <Project key={index} project={project} />
         ))}
