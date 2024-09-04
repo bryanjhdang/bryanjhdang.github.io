@@ -14,7 +14,7 @@ interface ProjectInfo {
 function Project({ project }: { project: ProjectInfo }) {
   return (
     <>
-      <div className="flex sm:flex-row flex-col gap-10">
+      <div className="flex sm:flex-row flex-col gap-10 p-8 shadow-md">
         
         <div className="basis-1/4">
           <img src={project.imageLink} alt={project.name} className="w-full object-cover" />
@@ -51,7 +51,7 @@ export default function Projects() {
   return (
     <div id="projects" className="pt-20 pb-20 border-none">
       <SectionTitle title="PROJECTS" />
-      <div className="grid grid-cols-1 gap-24 sm:gap-28">
+      <div className="grid grid-cols-1 sm:gap-16">
         {projectData.map((project, index) => (
           <Project key={index} project={project} />
         ))}
