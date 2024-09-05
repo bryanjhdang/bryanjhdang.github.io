@@ -15,7 +15,7 @@ export const projectData = [
   },
   {
     "name": "Boneyard of the Innocent",
-    "description": "A puzzle platformer game where you try to outsmart a Wendigo through puzzles and interactions across playthroughs. Made for the Godot Wild June 2024 Jam.",
+    "description": "A puzzle platformer game where you try to outsmart a Wendigo through puzzles and interactions across playthroughs. Made for the Godot Wild Jam June 2024.",
     "imageLink": BoneyardImage,
     "projectLink": "https://0strategist0.itch.io/boneyard-of-the-innocent",
     "githubLink": "https://github.com/0Strategist0/GodotWildJam",
@@ -24,7 +24,7 @@ export const projectData = [
   },
   {
     "name": "Big Fish Eat Small Fish, Big Fish Get Bigger",
-    "description": "A 2D arcade survival game where you start as a small fish, but eat other fish to become the biggest in the seas. Made for the GMTK 2024 Game Jam.",
+    "description": "A 2D arcade survival game where you start as a small fish, but eat other fish to become the biggest in the seas. Made for the GMTK Game Jam 2024.",
     "imageLink": BigFishImage,
     "projectLink": "https://bryd.itch.io/big-fish-eat-small-fish-big-fish-get-bigger",
     "githubLink": "https://github.com/bryanjhdang/gmtk2024",
