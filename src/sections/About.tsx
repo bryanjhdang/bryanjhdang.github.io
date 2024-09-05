@@ -8,10 +8,10 @@ export default function About() {
         <div className="sm:mr-20 text-base space-y-4">
           <SectionTitle title="ABOUT" />
           <p>
-            Based in Vancouver, I'm currently doing a Computer Science degree at SFU! You can get in touch with me through <a className="underline" href="mailto:bda37@sfu.ca">email</a> or <a className="underline" href="https://www.linkedin.com/in/bryanjhdang/" target="_blank">LinkedIn</a>.
+            Based in Vancouver, I'm currently doing a Computer Science degree at SFU! You can get in touch with me through <a className="link link-info" href="mailto:bda37@sfu.ca">email</a> or <a className="link link-info" href="https://www.linkedin.com/in/bryanjhdang/" target="_blank">LinkedIn</a>.
           </p>
           <p>
-            Sometimes <a className="underline" href="https://bryandang.substack.com/" target="_blank">I like to blog about stuff</a>, usually game reviews and random media.
+            Sometimes <a className="link link-info" href="https://bryandang.substack.com/" target="_blank">I like to blog about stuff</a>, usually game reviews and random media.
           </p>
           <p>
             My hobbies include playing both virtual and tabletop games, reading, and binge watching camping and speedrunning videos on YouTube. My favorite game is Baldur's Gate 3, and my favorite manga is Haikyuu.

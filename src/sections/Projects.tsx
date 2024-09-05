@@ -5,7 +5,7 @@ interface ProjectInfo {
   name: string,
   description: string,
   imageLink: string,
-  projectLink: string | null,
+  projectLink: string,
   githubLink: string | null,
   type: string,
   tags: string[]
@@ -13,8 +13,8 @@ interface ProjectInfo {
 
 function Project({ project }: { project: ProjectInfo }) {
   return (
-    <>
-      <div className="flex sm:flex-row flex-col gap-10 p-6 border rounded-md shadow">
+    <a href={project.projectLink} target="_blank">
+      <div className="flex sm:flex-row flex-col gap-10 p-6 border rounded-md shadow hover:shadow-lg bg-white" >
         
         <div className="basis-1/4">
           <img src={project.imageLink} alt={project.name} className="w-full object-cover" />
@@ -27,7 +27,7 @@ function Project({ project }: { project: ProjectInfo }) {
             <p className="text-base">{project.description}</p> 
           </div>
 
-          <div className="flex flex-row gap-2 pb-4">
+          <div className="flex flex-row flex-wrap gap-2 pb-4">
             <p className="badge badge-primary badge-outline">{project.type}</p>
             {project.tags.map((element, index) => (
               <p key={index} className="badge badge-secondary badge-outline">{element}</p>
@@ -49,7 +49,7 @@ function Project({ project }: { project: ProjectInfo }) {
         
         </div>
       </div>
-    </>
+    </a>
   )
 }
 
@@ -58,7 +58,7 @@ export default function Projects() {
   return (
     <div id="projects" className="pt-20 pb-20 border-none">
       <SectionTitle title="PROJECTS" />
-      <div className="grid grid-cols-1 gap-12">
+      <div className="grid grid-cols-1 gap-10">
         {projectData.map((project, index) => (
           <Project key={index} project={project} />
         ))}
