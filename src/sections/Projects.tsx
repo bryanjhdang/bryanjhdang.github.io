@@ -14,7 +14,7 @@ interface ProjectInfo {
 function Project({ project }: { project: ProjectInfo }) {
   return (
     <a href={project.projectLink} target="_blank">
-      <div className="flex sm:flex-row flex-col gap-10 p-6 border rounded-md shadow hover:shadow-lg bg-white" >
+      <div className="group flex sm:flex-row flex-col gap-10 p-6 border rounded-md shadow hover:shadow-lg bg-white" >
         
         <div className="basis-1/4">
           <img src={project.imageLink} alt={project.name} className="w-full object-cover" />
