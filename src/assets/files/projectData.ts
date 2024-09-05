@@ -38,6 +38,6 @@ export const projectData = [
     "projectLink": "https://bryd.itch.io/past-your-peak",
     "githubLink": "https://github.com/lucastmah/Mute_Jammers",
     "type": "Game",
-    "tags": ["Unity"]
+    "tags": ["Unity", "Aseprite"]
   }
 ]
