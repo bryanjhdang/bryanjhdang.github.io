@@ -14,7 +14,7 @@ interface ProjectInfo {
 function Project({ project }: { project: ProjectInfo }) {
   return (
     <>
-      <div className="flex sm:flex-row flex-col gap-10 p-8 shadow-md">
+      <div className="flex sm:flex-row flex-col gap-10 p-6 border rounded-md shadow">
         
         <div className="basis-1/4">
           <img src={project.imageLink} alt={project.name} className="w-full object-cover" />
@@ -24,21 +24,28 @@ function Project({ project }: { project: ProjectInfo }) {
           
           <div className="pb-4">
             <p className="text-xl font-semibold pb-4">{project.name}</p>
-            <p className="text-base">{project.description}</p>
+            <p className="text-base">{project.description}</p> 
           </div>
 
-          <div>
+          <div className="flex flex-row gap-2 pb-4">
+            <p className="badge badge-primary badge-outline">{project.type}</p>
+            {project.tags.map((element, index) => (
+              <p key={index} className="badge badge-secondary badge-outline">{element}</p>
+            ))}
+          </div>
+
+          {/* <div>
             {project.projectLink && (
-              <a href={project.projectLink} target="_blank" rel="noopener noreferrer" className="text-base underline mr-5">
+              <a href={project.projectLink} target="_blank" rel="noopener noreferrer" className="link mr-5">
                 View Project
               </a>
             )}
             {project.githubLink && (
-              <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="text-base underline mr-5">
+              <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="link mr-5">
                 Git Repo
               </a>
             )}
-          </div>
+          </div> */}
         
         </div>
       </div>
@@ -51,7 +58,7 @@ export default function Projects() {
   return (
     <div id="projects" className="pt-20 pb-20 border-none">
       <SectionTitle title="PROJECTS" />
-      <div className="grid grid-cols-1 sm:gap-16">
+      <div className="grid grid-cols-1 gap-12">
         {projectData.map((project, index) => (
           <Project key={index} project={project} />
         ))}
